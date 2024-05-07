@@ -1,4 +1,4 @@
 print('Hello GitHub')
 
-samps <- rnorm(100, 0, 1)
+samps <- rexp(100, 0, 1)
 hist(samps)
