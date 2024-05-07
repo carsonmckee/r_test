@@ -1,4 +1,6 @@
 print('Hello GitHub')
 
-samps <- rexp(100, 0, 1)
-hist(samps)
+sample_mean <- function(x){
+  n <- length(x)
+  sum(x)/n
+}
